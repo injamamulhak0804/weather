@@ -1,0 +1,63 @@
+.current{
+    background: rgb(33,150,243);
+    min-width: 61vw;
+    min-height: 150px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px!important; 
+    padding: 15px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    row-gap: 30px;
+    margin-bottom: 50px;
+}
+.currentBody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.currentBody span{
+    width: 100px;
+    border-right: 2px solid white;
+}
+.currentBody span:last-child{
+    border: transparent;
+}
+@media only screen and (max-width: 600px) {
+  .currentBody{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .currentBody span{
+    border: none;
+  }
+}
+.forecast{
+  max-width: calc(80% - 7rem);
+  color: white;
+  margin-bottom: 50px;
+}
+.accordian{
+  width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.hourTrack{
+   display: flex;
+   align-items: center;
+  justify-content: space-evenly
+}
+.pro{
+  width: 70%;
+}
